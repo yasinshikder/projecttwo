@@ -1,0 +1,9 @@
+@media screen and (maz-width: 476px){
+    .online-games{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+  }
+    
+
+
