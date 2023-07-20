@@ -1,55 +1,12 @@
 @media screen and (max-width: 476px){
-    .online-games{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .online-img-container{
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .banner-container{
-        flex-direction: column;
-    }
-    .play-hero{
-        flex-direction: column;
-    }
-    .toy-img {
-        width: 100px;
-        height: 120px;
-        position: relative;
-        left:-80px;
-        top:200px;
-      
-      }
-      .nav-container{
-        flex-direction: column;
-        gap:5px;
-    align-items: center;
-          
-    background-color: #FFF;
-    margin:2px 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-      }
-      .icon-container{
-        grid-template-columns: repeat(3, 1fr);
-        margin-top: 5px;
-padding-top: 5px;
-width: 80%;
-margin: auto;
-gap:5px;
-
-      }
-      .horse-hero{
-        width: 200px;
-        height: 200px;
-      }
+  .nav-items-container ul{
+    flex-direction: column;
   }
-    
-
-@media screen and (max-width: 476px){
-    .online-games{
+  
+  .online-games{
         grid-template-columns: repeat(1, 1fr);
     }
+    
     .online-img-container{
         grid-template-columns: repeat(1, 1fr);
 
@@ -59,6 +16,7 @@ gap:5px;
     }
     .play-hero{
         flex-direction: column;
+        
     }
     .toy-img {
         width: 100px;
@@ -90,15 +48,32 @@ gap:5px;
         width: 200px;
         height: 200px;
       }
+      .items-contanier ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+      }
+      .logo-brand{
+        margin-top: 5px;
+        padding-top: 10px;
+      }
+      .information-container{
+        height: 300px;
+        width: auto;
+      }
+      .last-description ul{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+  }
   }
     
 
   @media screen and (max-width: 768px){
     .online-games{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .online-img-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
 
     }
     .banner-container{
@@ -137,9 +112,24 @@ gap:5px;
         width: 250px;
         height: 250px;
       }
+      .items-contanier ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+      }
+      .logo-brand{
+        margin-top: 5px;
+        padding-top: 10px;
+      }
+      .information-container{
+        height: 300px;
+        width: auto;
+      }
+      .last-description ul{
+display: grid;
+grid-template-columns: repeat(2,1fr);
   }
     
-
-
+  }
 
 
